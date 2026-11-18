@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Juan Diego Rodríguez Yanquen</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main id="contenedor-cv">
+        <!-- Barra Lateral Izquierda -->
+        <aside id="barra-lateral">
+            <div class="perfil">
+                <img src="./img/Foto Perfil.jpg" alt="Foto de Perfil de Juan Diego Rodríguez">
+                <h1>Juan Diego Rodríguez Yanquen</h1>
+                <h2>Desarrollador de Software</h2>
+            </div>
+
+            <section class="contactos">
+                <h2>Contacto</h2>
+                <ul>
+                    <li>
+                        <span class="icono">📍</span>
+                        <span>Bogotá D.C., Colombia</span>
+                    </li>
+                    <li>
+                        <span class="icono">📞</span>
+                        <a href="tel:+573114558908">+57 311 455 8908</a>
+                    </li>
+                    <li>
+                        <span class="icono">✉️</span>
+                        <a href="mailto:juandrodriguezy057@gmail.com">juandrodriguezy057@gmail.com</a>
+                    </li>
+                    <li>
+                        <span class="icono">🔗</span>
+                        <a href="https://www.linkedin.com/in/juan-rodriguez-3b2589450" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </li>
+                    <li>
+                        <span class="icono">💻</span>
+                        <a href="https://github.com/juandirodriguezy" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="habilidades-blandas-aside">
+                <h2>Competencias</h2>
+                <ul>
+                    <li>Trabajo en equipo</li>
+                    <li>Resolución analítica de problemas</li>
+                    <li>Comunicación asertiva</li>
+                    <li>Aprendizaje continuo y proactividad</li>
+                    <li>Pensamiento lógico y buenas prácticas</li>
+                </ul>
+            </section>
+
+            <section class="idiomas-aside">
+                <h2>Idiomas</h2>
+                <ul>
+                    <li><strong>Español:</strong> Nativo</li>
+                    <li><strong>Inglés:</strong> Técnico (Lectura de documentación técnica y APIs)</li>
+                </ul>
+            </section>
+        </aside>
+
+        <!-- Contenido Principal Derecho -->
+        <article class="contenido-principal">
+            <!-- Sobre Mí -->
+            <section class="sobre-mi">
+                <h2>Sobre Mí</h2>
+                <p>Estudiante de Tecnología en Desarrollo de Software en la Universidad de San Buenaventura con sólida preparación en desarrollo web full-stack y bases de datos relacionales. Cuento con experiencia práctica diseñando e implementando arquitecturas backend modulares con <strong>Node.js</strong> y <strong>Express</strong>, interfaces reactivas con <strong>React</strong> y modelado de datos en <strong>PostgreSQL</strong> y <strong>MySQL</strong>. Además, poseo conocimientos en <strong>Java</strong> y <strong>Kotlin</strong>. Me destaco por mi enfoque en el código limpio, seguridad mediante JWT y la resolución eficiente de desafíos técnicos.</p>
+            </section>
+
+            <!-- Experiencia y Proyectos -->
+            <section class="experiencia">
+                <h2>Experiencia en Desarrollo</h2>
+                <div class="experiencia-item">
+                    <div class="item-header-normal">
+                        <h3>Desarrollador Full-Stack &ndash; ALIMOP (Marketplace de Alimentos)</h3>
+                        <span class="periodo">Feb 2024 &ndash; Actualidad</span>
+                    </div>
+                    <p class="rol-sub"><em>Universidad de San Buenaventura &bull; Proyecto Integrador</em></p>
+                    <ul class="lista-detalles">
+                        <li>Diseñé e implementé la arquitectura de una plataforma web full-stack que conecta proveedores de alimentos con clientes finales para optimizar inventarios y pedidos.</li>
+                        <li>Desarrollé una API RESTful modular en <strong>Node.js</strong> y <strong>Express</strong> con más de 11 endpoints protegidos para autenticación, inventario y despachos.</li>
+                        <li>Modelé la base de datos relacional en <strong>PostgreSQL</strong>, previniendo inyecciones SQL mediante consultas parametrizadas a través de <code>pg pool</code>.</li>
+                        <li>Implementé autenticación y control de accesos con <strong>JWT</strong> y encriptación de claves con <strong>Bcrypt</strong>.</li>
+                        <li>Construí el frontend interactivo en <strong>React 18</strong> con <strong>Vite</strong>, React Router DOM 6 y Bootstrap 5, integrando carrito de compras y panel para proveedores.</li>
+                        <li>Gestioné la subida y almacenamiento de imágenes en la nube conectando <strong>Multer</strong> con <strong>ImageKit CDN</strong>.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Educación -->
+            <section class="educacion">
+                <h2>Educación</h2>
+                <div class="educacion-item">
+                    <div class="item-header-normal">
+                        <h3>Tecnología en Desarrollo de Software</h3>
+                        <span class="periodo">2024 &ndash; 2026 (En curso)</span>
+                    </div>
+                    <p class="rol-sub">Universidad de San Buenaventura &bull; Bogotá D.C., Colombia</p>
+                </div>
+                <div class="educacion-item" style="margin-top: 10px;">
+                    <div class="item-header-normal">
+                        <h3>Bachiller Académico</h3>
+                        <span class="periodo">2020</span>
+                    </div>
+                    <p class="rol-sub">Colegio Pierre de Fermat &bull; Bogotá D.C., Colombia</p>
+                </div>
+            </section>
+
+            <!-- Habilidades Técnicas -->
+            <section class="habilidades">
+                <h2>Habilidades Técnicas</h2>
+                <div id="contenedor-habilidades">
+                    <div class="bloque-habilidad">
+                        <h3>Lenguajes</h3>
+                        <ul>
+                            <li>JavaScript (ES6+)</li>
+                            <li>Java &bull; Kotlin</li>
+                            <li>SQL (PostgreSQL, MySQL)</li>
+                            <li>HTML5 &bull; CSS3</li>
+                        </ul>
+                    </div>
+                    <div class="bloque-habilidad">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>React 18 &bull; Vite</li>
+                            <li>React Router DOM 6</li>
+                            <li>Bootstrap 5</li>
+                            <li>Responsive Design / Grid</li>
+                        </ul>
+                    </div>
+                    <div class="bloque-habilidad">
+                        <h3>Backend &amp; BD</h3>
+                        <ul>
+                            <li>Node.js &bull; Express.js</li>
+                            <li>PostgreSQL &bull; MySQL</li>
+                            <li>REST APIs &bull; JWT</li>
+                            <li>Bcrypt &bull; Multer</li>
+                        </ul>
+                    </div>
+                    <div class="bloque-habilidad">
+                        <h3>Herramientas &amp; QA</h3>
+                        <ul>
+                            <li>Git &bull; GitHub</li>
+                            <li>Postman &bull; DBeaver</li>
+                            <li>Jest &bull; Supertest</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
