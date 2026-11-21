@@ -13,7 +13,7 @@
             <div class="perfil">
                 <img src="./img/Foto Perfil.jpg" alt="Foto de Perfil de Juan Diego Rodríguez">
                 <h1>Juan Diego Rodríguez Yanquen</h1>
-                <h2>Desarrollador de Software</h2>
+                <h2>Desarrollador Full-Stack &amp; Móvil</h2>
             </div>
 
             <section class="contactos">
@@ -25,7 +25,7 @@
                     </li>
                     <li>
                         <span class="icono">📞</span>
-                        <a href="tel:+573114558908">+57 311 455 8908</a>
+                        <a href="tel:+573106690137">+57 310 669 0137</a>
                     </li>
                     <li>
                         <span class="icono">✉️</span>
@@ -67,25 +67,40 @@
             <!-- Sobre Mí -->
             <section class="sobre-mi">
                 <h2>Sobre Mí</h2>
-                <p>Estudiante de Tecnología en Desarrollo de Software en la Universidad de San Buenaventura con sólida preparación en desarrollo web full-stack y bases de datos relacionales. Cuento con experiencia práctica diseñando e implementando arquitecturas backend modulares con <strong>Node.js</strong> y <strong>Express</strong>, interfaces reactivas con <strong>React</strong> y modelado de datos en <strong>PostgreSQL</strong> y <strong>MySQL</strong>. Además, poseo conocimientos en <strong>Java</strong> y <strong>Kotlin</strong>. Me destaco por mi enfoque en el código limpio, seguridad mediante JWT y la resolución eficiente de desafíos técnicos.</p>
+                <p>Estudiante de Tecnología en Desarrollo de Software en la Universidad de San Buenaventura con sólida formación en desarrollo web full-stack y aplicaciones móviles nativas en <strong>Android (Kotlin)</strong>. Experiencia práctica diseñando e implementando arquitecturas <strong>MVVM</strong>, APIs REST modulares con <strong>Node.js/Express</strong>, interfaces reactivas con <strong>React</strong> y administración de bases de datos relacionales y NoSQL en <strong>PostgreSQL</strong>, <strong>MySQL</strong> y <strong>Cloud Firestore</strong>. Enfoque riguroso en seguridad, control de acceso por roles y código escalable.</p>
             </section>
 
             <!-- Experiencia y Proyectos -->
             <section class="experiencia">
                 <h2>Experiencia en Desarrollo</h2>
+
+                <!-- Proyecto 1: ALIMOP -->
                 <div class="experiencia-item">
                     <div class="item-header-normal">
                         <h3>Desarrollador Full-Stack &ndash; ALIMOP (Marketplace de Alimentos)</h3>
                         <span class="periodo">Feb 2024 &ndash; Actualidad</span>
                     </div>
-                    <p class="rol-sub"><em>Universidad de San Buenaventura &bull; Proyecto Integrador</em></p>
+                    <p class="rol-sub"><em>U. San Buenaventura &bull; React 18, Node.js, Express, PostgreSQL</em></p>
                     <ul class="lista-detalles">
-                        <li>Diseñé e implementé la arquitectura de una plataforma web full-stack que conecta proveedores de alimentos con clientes finales para optimizar inventarios y pedidos.</li>
-                        <li>Desarrollé una API RESTful modular en <strong>Node.js</strong> y <strong>Express</strong> con más de 11 endpoints protegidos para autenticación, inventario y despachos.</li>
-                        <li>Modelé la base de datos relacional en <strong>PostgreSQL</strong>, previniendo inyecciones SQL mediante consultas parametrizadas a través de <code>pg pool</code>.</li>
-                        <li>Implementé autenticación y control de accesos con <strong>JWT</strong> y encriptación de claves con <strong>Bcrypt</strong>.</li>
-                        <li>Construí el frontend interactivo en <strong>React 18</strong> con <strong>Vite</strong>, React Router DOM 6 y Bootstrap 5, integrando carrito de compras y panel para proveedores.</li>
-                        <li>Gestioné la subida y almacenamiento de imágenes en la nube conectando <strong>Multer</strong> con <strong>ImageKit CDN</strong>.</li>
+                        <li>Diseñé e implementé una plataforma web marketplace B2B/B2C para conectar proveedores de alimentos con clientes finales, optimizando la cadena de suministro y la gestión de inventario.</li>
+                        <li>Desarrollé una API RESTful modular en <strong>Node.js</strong> y <strong>Express</strong> (11+ endpoints) con control de sesiones seguras mediante <strong>JWT</strong> y encriptación <strong>Bcrypt</strong>.</li>
+                        <li>Modelé la base de datos relacional en <strong>PostgreSQL</strong> con connection pooling parametrizado (<code>pg pool</code>) para prevenir inyecciones SQL y garantizar integridad referencial.</li>
+                        <li>Construí el frontend interactivo en <strong>React 18</strong> con <strong>Vite</strong> y Bootstrap 5; integré pruebas con <strong>Jest</strong> y <strong>Supertest</strong>.</li>
+                    </ul>
+                </div>
+
+                <!-- Proyecto 2: GymSync -->
+                <div class="experiencia-item" style="margin-top: 10px;">
+                    <div class="item-header-normal">
+                        <h3>Desarrollador Android &ndash; GymSync (App Móvil para Gimnasios)</h3>
+                        <span class="periodo">2024 &ndash; Actualidad</span>
+                    </div>
+                    <p class="rol-sub"><em>U. San Buenaventura &bull; Android Nativo, Kotlin, Firebase, n8n, Make.com</em></p>
+                    <ul class="lista-detalles">
+                        <li>Desarrollé la aplicación móvil nativa en <strong>Kotlin</strong> con arquitectura <strong>MVVM</strong>, <code>LiveData</code>, <code>SharedFlow</code> y consumo de APIs con <strong>Retrofit 2</strong> y <strong>OkHttp</strong>.</li>
+                        <li>Conecté en tiempo real con <strong>Cloud Firestore</strong> y <strong>Firebase Auth</strong> con verificación de correo obligatoria y Security Rules con control de roles (RBAC: Cliente / Admin).</li>
+                        <li>Implementé pipeline de eventos asíncrono con <strong>n8n</strong> (Docker) y <strong>Make.com</strong> para procesamiento de reservas y notificaciones automáticas por Gmail.</li>
+                        <li>Diseñé el módulo de Administrador con gestión de catálogo (CRUD y cancelación en cascada) y control de asistencia con transacciones atómicas <code>WriteBatch</code>; soporte Edge-to-Edge (Android 15+).</li>
                     </ul>
                 </div>
             </section>
@@ -100,13 +115,6 @@
                     </div>
                     <p class="rol-sub">Universidad de San Buenaventura &bull; Bogotá D.C., Colombia</p>
                 </div>
-                <div class="educacion-item" style="margin-top: 10px;">
-                    <div class="item-header-normal">
-                        <h3>Bachiller Académico</h3>
-                        <span class="periodo">2020</span>
-                    </div>
-                    <p class="rol-sub">Colegio Pierre de Fermat &bull; Bogotá D.C., Colombia</p>
-                </div>
             </section>
 
             <!-- Habilidades Técnicas -->
@@ -114,39 +122,39 @@
                 <h2>Habilidades Técnicas</h2>
                 <div id="contenedor-habilidades">
                     <div class="bloque-habilidad">
-                        <h3>Lenguajes</h3>
+                        <h3>Móvil &amp; Lenguajes</h3>
                         <ul>
-                            <li>JavaScript (ES6+)</li>
-                            <li>Java &bull; Kotlin</li>
-                            <li>SQL (PostgreSQL, MySQL)</li>
-                            <li>HTML5 &bull; CSS3</li>
+                            <li>Kotlin &bull; Java &bull; JavaScript (ES6+)</li>
+                            <li>Android SDK &bull; MVVM &bull; Retrofit 2</li>
+                            <li>OkHttp &bull; LiveData &bull; SharedFlow</li>
+                            <li>SQL &bull; HTML5 &bull; CSS3</li>
                         </ul>
                     </div>
                     <div class="bloque-habilidad">
-                        <h3>Frontend</h3>
+                        <h3>Web &amp; Frontend</h3>
                         <ul>
                             <li>React 18 &bull; Vite</li>
                             <li>React Router DOM 6</li>
-                            <li>Bootstrap 5</li>
-                            <li>Responsive Design / Grid</li>
+                            <li>Bootstrap 5 &bull; Responsive Design</li>
+                            <li>CSS Grid &bull; Flexbox</li>
                         </ul>
                     </div>
                     <div class="bloque-habilidad">
-                        <h3>Backend &amp; BD</h3>
+                        <h3>Backend &amp; Cloud</h3>
                         <ul>
-                            <li>Node.js &bull; Express.js</li>
+                            <li>Node.js &bull; Express.js &bull; REST APIs</li>
                             <li>PostgreSQL &bull; MySQL</li>
-                            <li>REST APIs &bull; JWT</li>
-                            <li>Bcrypt &bull; Multer</li>
+                            <li>Cloud Firestore &bull; Firebase Auth</li>
+                            <li>JWT &bull; Bcrypt &bull; n8n &bull; Make.com</li>
                         </ul>
                     </div>
                     <div class="bloque-habilidad">
                         <h3>Herramientas &amp; QA</h3>
                         <ul>
-                            <li>Git &bull; GitHub</li>
-                            <li>Postman &bull; DBeaver</li>
+                            <li>Git &bull; GitHub &bull; Android Studio</li>
+                            <li>Postman &bull; DBeaver &bull; VS Code</li>
                             <li>Jest &bull; Supertest</li>
-                            <li>VS Code</li>
+                            <li>Docker (n8n container)</li>
                         </ul>
                     </div>
                 </div>
